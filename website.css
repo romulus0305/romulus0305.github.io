@@ -1,3 +1,54 @@
 body{
     background-color: black;
 }
+
+.nav-cont{
+   background-color:  #343a40 !important;
+}
+
+.navbar-brand{
+    font-family: 'Fredoka One', cursive;  
+}
+
+.whybuy-bg{
+    background-color: black;
+}
+
+.wb-p{
+    padding-top:10rem;
+}
+
+.wbf{
+    font-size: 140px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.wbf:hover{
+    cursor: pointer
+}
+.green{
+    color: green;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.red{
+    color: red;
+
+}
+.title-wb{
+    color:slategrey;
+}
+
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
