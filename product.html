@@ -60,7 +60,7 @@
     <div class="row">
         <div class="col-sm-12 text-center wb-p">
             
-            <span class="green wbf">Wh</span><span class="yellow wbf">y</span> <span class="red wbf">buy</span>        <span class="green wbf">?</span><span class="yellow wbf">?</span><span class="red wbf">?</span>   
+            <span id="wh" class="green wbf">Wh</span><span id="y" class="yellow wbf">y</span> <span id="buy" class="red wbf">buy</span>        <span id="qg" class="green wbf">?</span><span id="qy" class="yellow wbf">?</span><span id="qr" class="red wbf">?</span>   
         <h1 class="title-wb">IT Leasing company</h1>
         </div>
 
@@ -81,6 +81,13 @@
       </footer>
 </body>
 <script>
-$('ul.navbar-nav a[href^="/index"]').addClass('active')
-</script>
+    $('ul.navbar-nav a[href^="/product"]').addClass('active')
+
+    $('span').on('hover',function() {
+        
+        alert('radi');
+
+    })
+
+    </script>
 </html>
